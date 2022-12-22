@@ -1,0 +1,13 @@
+spring:
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: dbuserpassword
+    url: jdbc:mysql://localhost/db_example
+    username: dbuser
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+      
+    show-sql: true
