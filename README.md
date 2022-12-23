@@ -26,9 +26,7 @@ $ curl 'localhost:8080/user/1'
 
 The reply should be as follows:
 
-```
 [{"id":1,"name":"jhondoe","email":"someemail@someemailprovider.com","dob":"08-03-1997"}]
-```
 
 The following command shows user name and ages whose age is greater than n:
 
