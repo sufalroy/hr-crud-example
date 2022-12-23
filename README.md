@@ -21,7 +21,7 @@ Saved
 The following command shows n number of users:
 
 ```
-$ curl 'localhost:8080/user/1'
+$ curl localhost:8080/user/1
 ```
 
 The reply should be as follows:
@@ -31,7 +31,7 @@ The reply should be as follows:
 The following command shows user name and ages whose age is greater than n:
 
 ```
-$ curl 'localhost:8080/user/ages/20'
+$ curl localhost:8080/user/ages/20
 ```
 The reply should be as follows:
 
